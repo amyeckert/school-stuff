@@ -1,7 +1,6 @@
 ;(function($) {
 
     $(document).ready(function() {
-    	console.log("page is ready");
 
         //----- update copyright site-wide -----------------------//
         var date = new Date();
@@ -10,20 +9,14 @@
         var copyright = $('p.copyright').text();
         var copyrightNotice = '© ' + year + ' Amy Eckert';
         $('p.copyright').html(copyrightNotice);   
+        console.log(date);
 
-        //-------------------------------------------
+        //------ choose random country ----------------------------//
         $(".choose").on("click", function(event) {
         	event.preventDefault();
-        	console.log("button clicked");
+        	console.log("button clicked!");
 
         });
-
-
-
-
-
-
-        console.log("page is ready");
 
     });//________THE END________________________________________________________________________________________
 
