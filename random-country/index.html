@@ -5,34 +5,34 @@
 	<title>Random Country Picker</title>
 	<meta charset="utf-8" /> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="dist/css/style.css"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 </head>
 
 <body>
+	<img id="flag" src=" " alt="flag">
 	<article class="background">
-		<header>
-			<h1>Click the button to choose a random country. You never know where you might end up!</h1>
-		</header>
-	
-		<button class="choose">click me!</button>
+		<div class="header--inner">
+			<h1>Where will you go next</br>?</h1>
+			<button class="choose">click me!</button>
+			<p class="result"><span id="capital"></span>, <span id="country-name"></span>?</p>
 			
-		<figure class="result">
-			<img src=" " alt="flag">
-			<figcaption class="country-name"></figcaption>
-		</figure>
+		</div>
+		
+			
+	</article>
 
-		<div class="share">
+	<footer>
+			<div class="share">
 			<ul class="share-links">
-				<li><img src="" alt="" class="social social--facebook">Facebook</li>
 				<li><img src="" alt="" class="social social--twitter">Twitter</li>
-				<li><img src="" alt="" class="social social--instagram">Instagram</li>	
 			</ul>
 		</div>
-		<p class="copyright"></p>
-	</article>
-	
+			<p class="copyright"></p>
+		</footer>
 <!-- jQuery  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
