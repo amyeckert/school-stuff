@@ -1,16 +1,20 @@
 body {
-	background-color: #f9f9f9;
-	padding-left: 1rem;
+	background-color: hsla(50, 33%, 25%, 0.3);;
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 	width: 100%;
 	height: 100%;
 	opacity: 1;
 }
+
 #flag {
 	z-index: 0;
-	width: 100%;
-	max-height: 100vh;
+	width: 100vw;
+	height: 100vh;
+	background-color: #f9f9f9;
 }
+
 article {
 	display: flex;
 	flex-flow: row;
@@ -18,15 +22,16 @@ article {
 	position: absolute;
 	top: 0;
 
+
 }
-.header--inner {
+
+.article--inner {
 	width: 24vw;
 	height: 100vh;
 	display: flex;
 	flex-flow: column nowrap;
 	flex: 1 0 auto;
 	background-color: hsla(50, 33%, 25%, 0.3);
-	
 
 }
 
@@ -36,6 +41,7 @@ h1 {
 	opacity: 1;
 	color: #fff;
 	opacity: 1;
+    padding: 0 0 0 20px;
 	
 
 }
@@ -49,16 +55,19 @@ h1 {
 	text-transform: uppercase;
 	border: none;
 	outline: none;
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
-.result {
+.country-info {
 	font-family: 'Hind', sans-serif;
 	font-size: 1.3rem;
 	padding: 0 0 0 10px ;
-	opacity: 0.6;
-}
+	opacity: 0.5;
+	background-color: #fff;
+	margin-top: 0;
+	padding: 0 0 0 20px;
 
+}
 
 .share {
 
