@@ -1,11 +1,15 @@
 body {
-	background-color: hsla(50, 33%, 25%, 0.3);;
+	background-color: #f9f9f9;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
 	width: 100%;
 	height: 100%;
 	opacity: 1;
+}
+p {
+	 margin: 0;
+	 padding: 0; 
 }
 
 #flag {
@@ -21,8 +25,6 @@ article {
 	z-index: 1;
 	position: absolute;
 	top: 0;
-
-
 }
 
 .article--inner {
@@ -58,7 +60,8 @@ h1 {
 	opacity: 0.5;
 }
 
-.country-info {
+.country-info, 
+.share-links {
 	font-family: 'Hind', sans-serif;
 	font-size: 1.5rem;
 	padding: 0 0 0 10px ;
@@ -70,5 +73,23 @@ h1 {
 }
 
 .share {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 50px;
+	width: auto;
+	background-color: #f9f9f9;
+	font-family: 'Hind', sans-serif;
 
 }
+
+.social {
+	height: 50px;
+	background-color: #f9f9f9;
+
+}
+.share-links {
+	font-size: 1rem;
+	padding-top: 9px;
+	opacity: 0.6;
+}
+
